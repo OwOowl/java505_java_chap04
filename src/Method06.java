@@ -1,4 +1,4 @@
-public class Method6 {
+public class Method06 {
     public static void main(String[] args) {
         Car6 colorado = new Car6();
         colorado.name = "콜로라도";
