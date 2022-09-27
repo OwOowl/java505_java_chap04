@@ -1,2 +1,5 @@
-package subject;public class question {
+package subject;
+
+public class Question {
+
 }

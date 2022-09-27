@@ -1,12 +1,24 @@
 package subject2;
 
 public class Phone2 {
-    int memNum;
-    String name;
-    String tel;
+    private String name;
+    private String tel;
+
     public Phone2(String name, String tel) {
         this.name = name;
         this.tel = tel;
+    }
+
+    public void setName(String name) {
+        this.name = name;
+    }
+
+    public void setTel(String name) {
+        this.tel = tel;
+    }
+
+    public String getName() {
+        return name;
     }
 
     public String getTel() {
